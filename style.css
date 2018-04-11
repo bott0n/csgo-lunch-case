@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background: dimgray;
+}
+.button {
+    font-size: 60px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    line-height: 85px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 350px;
+    height: 85px;
+    background: linear-gradient(#1d7751, #0e382c);
+    border: 3px #25793b solid; 
+    border-radius: 5px;
+    text-shadow: 0 0 20px rgba(255,255,255,0.3);
+    transition: .1s;
+    transform: scale(1);
+    cursor: pointer;
+    -webkit-user-select: none;
+    box-shadow: 0 0 50px rgba(0,117,9,0.5);
+    overflow: hidden;
+  }
+  
+  .button:hover {
+    text-shadow: 0 0 20px rgba(255,255,255,0.5);
+    transform: scale(1.05);
+  }
+  
+  .button:active {
+    background: linear-gradient(#1f8258, #114435);
+    text-shadow: 0 0 20px rgba(255,255,255,0.5);
+    transform: scale(1);
+    box-shadow: 0 0 75px rgba(43,137,68,0.5);
+  }
+  
+  .button:after {
+    content: "";
+    position: relative;
+    top: -120px;
+    left: -90px;
+    display: block;
+    width: 35px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(35deg);
+    -webkit-filter: blur(20px);
+    transition: none;
+  }
+  
+  .button:hover:after {
+    left: 400px;
+    transition: .3s ease-in-out;
+  }
+#container{
+    width:600px;
+    height:200px;
+    border:1px solid black;
+    margin:20px auto;
+ 
+   overflow: hidden;
+}
+.slider-wrapper{
+    width:400000px;
+    height:200px;
+    background: black;
+    
+    display:inline-block;
+    position: relative;
+}
+.swiper-slide{
+    width:200px;
+    
+    height:80%;
+    margin-top:20px;
+    display:inline-block;
+    margin-left:20px;
+   overflow: hidden;
+    background:white;
+}
+
+.middle{
+    width:5px;
+    height:200px;
+    background: white;
+    position: absolute;
+    top:20px;
+    margin-left:300px;
+}
+span{
+    width:300px;
+    height:40%;
+
+    text-align:center ;
+    line-height:70px;
+    color:white;
+    
+
+    margin:100px;
+    display:inline-block;
+    margin-left:-50px;
+   
+    background:blue;
+    
+}
+
+
+.gold {
+    background: gold;
+}
+.red {
+    background: red;
+}
+.dark-purple {
+    background: deeppink
+}
+.purple{
+    background: fuchsia
+}
+.blue{
+    background: blue;
+}
+
