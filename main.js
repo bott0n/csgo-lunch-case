@@ -47,7 +47,7 @@ $(function(){
                
                 $('#btn').css('display','block');
                 var copy= $.clone($('.swiper-slide')[50])
-                $('.layout').html(copy)
+                $('.layout').append(copy)
             }
         },20)
     })
