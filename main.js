@@ -1,11 +1,12 @@
 $(function(){
 
-    
-
+   
+    var rendertime =0;
     $('#btn').on('click',function(){
-        render()
+      
         var right = 0;
-    
+      
+        render()
     var count=0;
     var speed=50;
         $('.overlay').css('display','none');
@@ -42,8 +43,11 @@ $(function(){
             }
             if(count>=450){
                 clearInterval(timer)
-            
+                rendertime++
+               
                 $('#btn').css('display','block');
+                var copy= $.clone($('.swiper-slide')[50])
+                $('.layout').html(copy)
             }
         },20)
     })

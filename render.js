@@ -12,7 +12,8 @@ var blue =`<div class="swiper-slide "><span class='blue'>龍記</span></div>` //
 
 function render(){
     console.log('start')
-    for(var i=0;i<100;i++){
+    $('.slider-wrapper').empty()
+    for(var i=0;i<60;i++){
 
         var num = random();
         if(num==1){
